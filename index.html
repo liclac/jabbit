@@ -1,0 +1,137 @@
+---
+layout: default
+title: Jabbit
+---
+<p class="small">
+	<strong>Note:</strong> Jabbit is a beta. Please report any issues to the admin: <a href="http://twitter.com/uppfinnarn">@uppfinnarn</a> on Twitter, uppfinnarn@macaronicode.se for Jabber and Email.
+</p>
+
+
+
+<h2>What is Jabber?</h2>
+<p>
+	Jabber is a <strong>federated chat network</strong>.
+</p>
+<p>
+	What separates it from other chat networks like Skype or MSN is the fact that it's made up of a lot of individually run servers that talk between themselves, similar to how Email works.
+</p>
+<p>
+	Jabbit.me is just one of these servers, and someone with an account here (<strong>username@jabbit.me</strong>) can talk to anyone on the network, even if they're registered on a different server entirely (such as <a href="http://jabber.org/">jabber.org</a>).
+</p>
+
+
+
+<h2>Why would I use it?</h2>
+<p>
+	There are many reasons to use Jabber. Some of the most notable one being:
+</p>
+
+<h3>Security and Privacy</h3>
+<p>
+	Most Jabber servers are both highly secure and open source. In fact, you can check the transport security of any given server yourself on <a href="http://xmpp.net/">XMPP.net</a>.
+</p>
+<p>
+	And, if you're really concerned about your messages being secret, you can always use client-side encryption (<a href="https://otr.cypherpunks.ca/">OTR</a>) or even set up <!--<a href="#">-->your own server<!--</a>-->.
+</p>
+
+<h3>Clients and compatibility</h3>
+<p>
+	Jabber uses a simple, extensible protocol called <strong>XMPP</strong>, supported by <!--<a href="/clients/">-->quite a few clients<!--</a>-->, covering just about every platform there is.
+</p>
+<p>
+	It's also what powers <strong>Facebook Chat</strong> and <strong>Google Talk</strong>, so Jabber clients can generally connect to those two as well.
+</p>
+
+<h3>Impossible to take down</h3>
+<ul>
+	<li>Jabber has no central nodes that can fall.</li>
+	<li>It's not owned by a company that can shut it down on a whim.</li>
+	<li>No government can demand it to be shut down.</li>
+</ul>
+<p>
+	As long as there is at least one person in the world willing to run a server, Jabber isn't going away.
+</p>
+
+
+
+<h2>How do I use it?</h2>
+<p>
+	To use Jabber, you only need three things: A client, a server, and an account.
+</p>
+
+<h3>The Client</h3>
+<ul>
+	<li><a href="http://instantbird.com/">Instantbird</a> (Windows, Mac and Linux)</li>
+	<li><a href="https://pidgin.im/">Pidgin</a> (Windows and Linux)</li>
+	<li><a href="https://adium.im/">Adium</a> (Mac)</li>
+	<li><a href="https://plus.im/">IM+</a> (iOS, Android, BlackBerry, Windows Phone)</li>
+</ul>
+<p>
+	For new users, we recommend one of the above clients. There are plenty of others to choose from, but these are the ones we believe will suit most people's tastes.
+</p>
+<p>
+	Pidgin and Adium are virtually identical under the hood, they're just different frontends for the same thing.<br/>
+	<small>There is also <a href="http://eion.robbmob.com/">a plugin</a> for Pidgin and Adium that allows you to route Skype through it.</small>
+</p>
+
+<h3>The Server</h3>
+<p>
+	There are plenty of servers around to choose from.<br/>
+	If you want an account on jabbit.me (<strong>your-username@jabbit.me</strong>), you can register either using your client (see below)<!--, or using the registration form above.-->
+</p>
+<p>
+	For other candidates, we recommend <a href="http://xmpp.net/directory.php">XMPP.net's list</a>.<br/>
+	<strong>Note:</strong> some of them have issues, like randomly disconnecting or not delivering messages. You'll just have to try and see.<br/>
+</p>
+<p>
+	The physical location of your server doesn't matter much, so you can usually choose the one whose name you like the best.<br/>
+	Also try not to pick one with an "F" security rating.
+</p>
+
+<h3>The Account</h3>
+<p>
+	The main way to register for an account on an XMPP Server is using <strong>in-band registration</strong>. This can be done with either Pidgin or Adium (and plenty of other clients).
+</p>
+<p>
+	Note that not all servers support this - some require you to register on their website, or even message an admin and ask nicely.
+</p>
+
+<h4>Using Pidgin</h4>
+<div class="subsection">
+	<ul>
+		<li>
+			If this is your first time launching Pidgin, the Add Account wizard will be opened for you. Otherwise, open it yourself with:<br/>
+			<strong>Accounts &rarr; Manage Accounts &rarr; Add</strong>.<br/>
+		</li>
+		<li>
+			Enter these values:
+			<dl class="dl-horizontal">
+				<dt>Protocol:</dt>
+				<dd><strong>XMPP</strong></dd>
+				<dt>Username:</dt>
+				<dd><em>anything you like</em></dd>
+				<dt>Domain:</dt>
+				<dd><strong>jabbit.me</strong> <small>(or your domain of choice)</small></dd>
+				<dt>Resource:</dt>
+				<dd><em>name this computer something</em></dd>
+				<dt>Password:</dt>
+				<dd><em>anything you like</em></dd>
+			</dl>
+		</li>
+		<li>Check the checkbox titled <strong>Create this account on the server</strong> and press Save.</li>
+	</ul>
+</div>
+
+<h4>Using Adium</h4>
+<ul>
+	<li>
+		Open the Accounts settings with <strong>Adium &rarr; Preferences</strong>, then click <strong>Add &rarr; XMPP (Jabber)</strong>.<br/>
+	</li>
+	<li>Click <strong>Register New Account</strong></li>
+	<li>Choose a domain to register on (such as <strong>jabbit.me</strong>) and press <strong>Request New Account</strong></li>
+	<li>
+		Fill in your desired username and password.<br/>
+		If the server supports in-band registration, pressing <strong>OK</strong> should tell you that the registration succeeded, otherwise it will give you an error describing what went wrong.
+	</li>
+	<li>Enter your newly registered details on the login page and press <strong>OK</strong>.</li>
+</ul>
